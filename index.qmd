@@ -1,5 +1,4 @@
 ---
-title: "Blogsite"
 listing:
   contents: posts
   sort: "date desc"

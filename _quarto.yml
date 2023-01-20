@@ -7,9 +7,12 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/Solab5 
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitteer.com/aboutScience 
+    left:
+      - href: Publication.qmd 
+        text: Publication
 format:
   html:
     theme: cosmo
