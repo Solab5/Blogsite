@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://Solab5.github.io/Blogsite/about.html</loc>
-    <lastmod>2023-01-20T06:33:46.446Z</lastmod>
+    <lastmod>2023-01-20T08:19:03.547Z</lastmod>
   </url>
   <url>
     <loc>https://Solab5.github.io/Blogsite/index.html</loc>
-    <lastmod>2023-01-20T06:33:48.194Z</lastmod>
+    <lastmod>2023-01-20T08:19:04.603Z</lastmod>
   </url>
   <url>
-    <loc>https://Solab5.github.io/Blogsite/posts/post-with-code/index.html</loc>
-    <lastmod>2023-01-20T06:33:49.411Z</lastmod>
+    <loc>https://Solab5.github.io/Blogsite/posts/blog1/index.html</loc>
+    <lastmod>2023-01-20T08:19:05.565Z</lastmod>
   </url>
   <url>
-    <loc>https://Solab5.github.io/Blogsite/posts/welcome/index.html</loc>
-    <lastmod>2023-01-20T06:33:50.550Z</lastmod>
+    <loc>https://Solab5.github.io/Blogsite/Publication.html</loc>
+    <lastmod>2023-01-20T08:19:06.480Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Solab5.github.io/Blogsite/publications/first/index.html</loc>
+    <lastmod>2023-01-20T08:19:07.300Z</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Blogsite</title>
+<link>https://Solab5.github.io/Blogsite/Publication.html</link>
+<atom:link href="https://Solab5.github.io/Blogsite/Publication.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.280</generator>
+<lastBuildDate>Tue, 01 Nov 2022 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Unsupervised Machine Learning For Early Faulty Device Detection</title>
+  <link>https://Solab5.github.io/Blogsite/publications/first/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><img src="https://Solab5.github.io/Blogsite/publications/first/https:/imageio.forbes.com/specials-images/imageserve/61d66f8dbbb58ffd41f3d174/AI-and-robotics/960x0.jpg?format=jpg&amp;width=960" class="img-fluid"> Early faulty detection in air quality sensors is of increasing importance in ensuring reliable and accurate air quality readings. These sensors play a critical role in monitoring the pollution levels in the atmosphere however, due to their exposure to harsh weather, it’s natural that they will face wear and may require periodical servicing. The devices are rarely monitored in most cases, particularly in Uganda. The objective of this research is to build a model for the early detection of faulty sensors for replacement and repair. Using the unsupervised learning approaches in particular K-means and PCA; we train a predictive model and later evaluate it for accuracy using a test dataset. From the cluster analysis, the research identified 3 clusters that are; the health state cluster, nearing fault state cluster, and the faulty state cluster. The research discovered that there is no significant difference in adopting PCA as a preprocessing step in using the K-means algorithm. The research further recommended other clustering methods to be used to compare the accuracy score. It also recommended using more attributes for PCA to be effective.</p>
+<p>Download paper on Makerere University Dissertation repository <a href="http://dissertations.mak.ac.ug/bitstream/handle/20.500.12281/13852/twinomugisha-cobams-bsta.pdf?sequence=1&amp;isAllowed=n">here</a> or research gate <a href="https://www.researchgate.net/publication/366957514_UNSUPERVISED_MACHINE_LEARNING_FOR_EARLY_FAULTY_DEVICE_DETECTION?utm_source=twitter&amp;rgutm_meta1=eHNsLWpheTh4bGtLc1RnbTRzcUVmYlVadUpaZFZlRHdmZVRUVjJ5U2JRa21ORTRxRGxYbDZEME5hQ2Zzb2UxZG50dVRsSnFBWURFWXhhTmdreldWaEpSNTY0ND0%3D">here</a></p>
+
+
+
+ ]]></description>
+  <guid>https://Solab5.github.io/Blogsite/publications/first/index.html</guid>
+  <pubDate>Tue, 01 Nov 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://imageio.forbes.com/specials-images/imageserve/61d66f8dbbb58ffd41f3d174/AI-and-robotics/960x0.jpg?format=jpg&amp;width=960" medium="image"/>
+</item>
+</channel>
+</rss>
