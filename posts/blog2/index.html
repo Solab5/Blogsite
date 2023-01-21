@@ -220,8 +220,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="what-is-it-really" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-it-really">WHAT IS IT REALLY?</h2>
 <p>In 2015 the idea of creating a computer system that could recognise images was considered so outrageously challenging that it was the basis of <a href="https://xkcd.com/1425/">this XKCD joke</a>:</p>
-<p><img src="index_files/figure-html/f6ec4bda-1-a0483178-c30e-4fdd-b2c2-349e130ab260.png" class="img-fluid"></p>
-<p>In this tutorial we are going to create a computer vision model that can classify whether an image is a car, plane, train or bicycle.</p>
+<p><img src="index_files/figure-html/ea8d23f5-1-a0483178-c30e-4fdd-b2c2-349e130ab260.png" class="img-fluid"></p>
+<p>In this tutorial we are going to create a computer vision model that can classify whether an image is a car, plane, train or bicycle. However this approach can work for any computer vision problem.</p>
 <p>By the end of this tutorial, you will be able to implemenent an image classification model in just a few minutes, using entirely free resources!. We shall be using the fastai library <code>A high framework library built on top of pytorch</code>. Feel free to see the ducumentation <a href="&quot;https://docs.fast.ai/tutorial.datablock.html&quot;">here</a> for more understanding.</p>
 <p>The basic steps we’ll take are:</p>
 <ol type="1">
@@ -453,7 +453,7 @@ Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /roo
 </div>
 <p>Generally when I run this I see 100% accuracy on the validation set (although it might vary a bit from run to run).</p>
 <p>“Fine-tuning” a model means that we’re starting with a model someone else has trained using some other dataset (called the <em>pretrained model</em>), and adjusting the weights a little bit so that the model learns to recognise your particular dataset. In this case, the pretrained model was trained to recognise photos in <em>imagenet</em>, and widely-used computer vision dataset with images covering 1000 categories).</p>
-<p>And another interesting thing to look at when dealing with categorical independent variables is that you can run a confusion matrix which gives you a visual representation and a sense on what classes are hard to predict. For our case, there is no time any class is being predicted wrongly which means that our model is performing very well.</p>
+<p>And another interesting thing to look at when dealing with categorical target variables is that you can run a confusion matrix which gives you a visual representation and a sense on what classes are hard to predict. For our case, there is no time any class is being predicted wrongly which means that our model is performing very well.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>interp <span class="op">=</span> ClassificationInterpretation.from_learner(learn)</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>interp.plot_confusion_matrix()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
