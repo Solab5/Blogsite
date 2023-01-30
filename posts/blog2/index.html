@@ -132,7 +132,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -209,7 +209,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-it-really" id="toc-what-is-it-really" class="nav-link active" data-scroll-target="#what-is-it-really">WHAT IS IT REALLY?</a></li>
+  <li><a href="#step-1-download-images-of-plane-train-car-and-bicycles." id="toc-step-1-download-images-of-plane-train-car-and-bicycles." class="nav-link" data-scroll-target="#step-1-download-images-of-plane-train-car-and-bicycles.">Step 1: Download images of plane, train, car and bicycles.</a></li>
+  <li><a href="#step-2-train-our-model" id="toc-step-2-train-our-model" class="nav-link" data-scroll-target="#step-2-train-our-model">Step 2: Train our model</a></li>
+  <li><a href="#step-3-use-our-model" id="toc-step-3-use-our-model" class="nav-link" data-scroll-target="#step-3-use-our-model">Step 3: Use our model</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -220,7 +231,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="what-is-it-really" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-it-really">WHAT IS IT REALLY?</h2>
 <p>In 2015 the idea of creating a computer system that could recognise images was considered so outrageously challenging that it was the basis of <a href="https://xkcd.com/1425/">this XKCD joke</a>:</p>
-<p><img src="index_files/figure-html/ea8d23f5-1-a0483178-c30e-4fdd-b2c2-349e130ab260.png" class="img-fluid"></p>
+<p><img src="index_files/figure-html/7fe738b4-1-a0483178-c30e-4fdd-b2c2-349e130ab260.png" class="img-fluid"></p>
 <p>In this tutorial we are going to create a computer vision model that can classify whether an image is a car, plane, train or bicycle. However this approach can work for any computer vision problem.</p>
 <p>By the end of this tutorial, you will be able to implemenent an image classification model in just a few minutes, using entirely free resources!. We shall be using the fastai library <code>A high framework library built on top of pytorch</code>. Feel free to see the ducumentation <a href="&quot;https://docs.fast.ai/tutorial.datablock.html&quot;">here</a> for more understanding.</p>
 <p>The basic steps we’ll take are:</p>
