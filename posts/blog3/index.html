@@ -324,7 +324,12 @@ mku.sh     u.info   u.user    u2.base  u3.test  u5.base  ua.test</code></pre>
 </div>
 </div>
 <p>The shape shows that we have 100,000 rows and 4 columns. The above dataframe shows all the data that we need, however it’s not in a friendly view. Here is a cross-tabulated excel version depicting details in a more friendly way.</p>
-<p><img src="http://localhost:8888/files/posts/blog3/col.PNG?_xsrf=2%7Cfb66ac70%7C5bf56c24f9dbfb088322e9d382c927c5%7C1675593791" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="col.PNG" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">column</figcaption><p></p>
+</figure>
+</div>
 <p>The data represents ratings that users have given to movies. The blank gaps imply that the user hasn’t given a rating yet, most probably we assume they haven’t watched it. In ourcase, the blank gaps are the values we want to predict.</p>
 <section id="latent-factors" class="level2">
 <h2 class="anchored" data-anchor-id="latent-factors">Latent factors</h2>
@@ -333,7 +338,12 @@ mku.sh     u.info   u.user    u2.base  u3.test  u5.base  ua.test</code></pre>
 <section id="learning-the-factors" class="level2">
 <h2 class="anchored" data-anchor-id="learning-the-factors">Learning the factors</h2>
 <p>Step 1: Randomly initialize some parameters. The left matrix represents the embedding matrix for the the userid whereas the upper matrix is for the movieid and all these parameters are randomly initialised. For both cases, blue represents the biases. For ourcase each id (wether movieid or userid) the number of latent factors are the same. (for our case each id has 5 factors and the extra 6th (bias)). &gt; <strong>jargon</strong>: Embedding matrix is what we multiply and embedding with, and in this case collaborative filtering problem is learned through training.</p>
-<p><img src="http://localhost:8888/files/posts/blog3/lat.PNG?_xsrf=2%7Cfb66ac70%7C5bf56c24f9dbfb088322e9d382c927c5%7C1675593791" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="lat.PNG" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">lat</figcaption><p></p>
+</figure>
+</div>
 <p>Step 2: Calculate the predictions. Just think of a simple math problem <span class="math inline">\(y=mx+c\)</span> where we have two changing parameters m and c where c is the bias term. Our bias works in the same way. We use dot product to multiply user factors and movies factors the add both the biases. This is how we obtain the values in white space. &gt; <strong>jargon</strong>: Dot product is when you multiply the corresponding elements of two vectors and add them up</p>
 <p>Step 3: The next step is to calculate the loss. We can use any loss function as long as it can be optimized. Remember at each step we compare the predicted value and then compare it with the actual value then used use stochastic gradient descent to make the parameters as better as possible. In this tutorial we use mean squared error since it works pretty fine. Other loss functions like mean absolute error can work perfect as well</p>
 </section>
