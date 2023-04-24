@@ -9,6 +9,13 @@
 <link>https://Solab5.github.io/Blogsite/Publication.html</link>
 <atom:link href="https://Solab5.github.io/Blogsite/Publication.xml" rel="self" type="application/rss+xml"/>
 <description></description>
+<image>
+<url>https://Solab5.github.io/Blogsite/deep.png</url>
+<title>Blogsite</title>
+<link>https://Solab5.github.io/Blogsite/Publication.html</link>
+<height>106</height>
+<width>144</width>
+</image>
 <generator>quarto-1.2.280</generator>
 <lastBuildDate>Mon, 31 Oct 2022 21:00:00 GMT</lastBuildDate>
 <item>
